@@ -2618,15 +2618,4 @@ All discovered result PNGs are included in their respective sections above.
 | stability_momentum_sweep_momentum_m0.95_lr0.01_bs128_ep20_seed2026 | [Config](results/histories/stability_momentum_sweep_momentum_m0.95_lr0.01_bs128_ep20_seed2026/config.json) | [Epoch history](results/histories/stability_momentum_sweep_momentum_m0.95_lr0.01_bs128_ep20_seed2026/history.csv) | [Summary](results/histories/stability_momentum_sweep_momentum_m0.95_lr0.01_bs128_ep20_seed2026/summary.json) |
 <!-- END TABLE ARCHIVE -->
 
-## 21. References
 
-1. CSE473 Computational Intelligence, *Major Task Project: Optimization & Image Classifiers*, Fall 2026, course assignment (Phase One requirements).
-2. Xiao, H., Rasul, K., & Vollgraf, R. (2017). [Fashion-MNIST: A Novel Image Dataset for Benchmarking Machine Learning Algorithms](https://arxiv.org/abs/1708.07747).
-3. [PyTorch documentation — SGD](https://docs.pytorch.org/docs/stable/generated/torch.optim.SGD.html), [Adagrad](https://docs.pytorch.org/docs/stable/generated/torch.optim.Adagrad.html), [RMSprop](https://docs.pytorch.org/docs/stable/generated/torch.optim.RMSprop.html), [Adam](https://docs.pytorch.org/docs/stable/generated/torch.optim.Adam.html). Implementation reference; the actual experimental build is recorded in Section 19.
-4. Duchi, J., Hazan, E., & Singer, Y. (2011). [Adaptive Subgradient Methods for Online Learning and Stochastic Optimization](https://jmlr.org/papers/v12/duchi11a.html). JMLR 12, 2121–2159.
-5. Kingma, D. P., & Ba, J. (2015). [Adam: A Method for Stochastic Optimization](https://arxiv.org/abs/1412.6980).
-6. Sutskever, I., Martens, J., Dahl, G., & Hinton, G. (2013). [On the importance of initialization and momentum in deep learning](https://proceedings.mlr.press/v28/sutskever13.html). ICML.
-7. Hendrycks, D., & Gimpel, K. (2016). [Gaussian Error Linear Units (GELUs)](https://arxiv.org/abs/1606.08415).
-8. He, K., Zhang, X., Ren, S., & Sun, J. (2015). [Delving Deep into Rectifiers](https://arxiv.org/abs/1502.01852).
-9. Glorot, X., & Bengio, Y. (2010). [Understanding the difficulty of training deep feedforward neural networks](https://proceedings.mlr.press/v9/glorot10a.html).
-10. [PyTorch CrossEntropyLoss](https://docs.pytorch.org/docs/stable/generated/torch.nn.CrossEntropyLoss.html) and [weight initialization](https://docs.pytorch.org/docs/stable/nn.init.html).
