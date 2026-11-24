@@ -1,0 +1,20 @@
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE files
+.vscode/
+.idea/
+
+# Raw dataset
+data/raw/
+
+# Temporary files
+.pytest_cache/
+.ipynb_checkpoints/
+.DS_Store

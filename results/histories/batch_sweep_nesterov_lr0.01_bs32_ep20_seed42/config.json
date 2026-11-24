@@ -1,0 +1,22 @@
+{
+    "optimizer": "nesterov",
+    "architecture": "LeakyGELUCNN",
+    "dataset": "Fashion-MNIST",
+    "lr": 0.01,
+    "momentum": 0.9,
+    "alpha": 0.99,
+    "betas": [
+        0.9,
+        0.999
+    ],
+    "batch_size": 32,
+    "epochs": 20,
+    "seed": 42,
+    "num_workers": 4,
+    "target_accuracy": 85.0,
+    "precision": "FP32",
+    "device": "cuda",
+    "pytorch_version": "2.9.1+cu128",
+    "parameters": 475434,
+    "gpu": "NVIDIA GeForce RTX 3060 Laptop GPU"
+}
